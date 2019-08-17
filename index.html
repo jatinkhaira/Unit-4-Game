@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Monoton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <br>
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col-12 m-3 p-5">
+                <h1>Crystal Collector</h1>
+                <h3>Instructions:</h3>
+                <ul>
+                    <li>> You will be given a random &ldquo;target number&rdquo; at the start of
+                        each game.</li>
+                    <li>> Each gem, located below, will be worth a random amount of points. This
+                        amount is hidden from view.</li>
+                    <li>> You win the game by matching your total score to the assigned random number.
+                        You lose the game if your total score goes above the random number.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+
+        <div class="row">
+            <div class="col-md-6 p-3 text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="number-to-guess p-4"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="your-guess p-4"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="wins-text p-4"></p>
+                        <p class="losses-text p-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-5 text-center">
+                <p>Choose a gem:</p>
+                <div class="row">
+                    <div class="col-12" id="gems">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
